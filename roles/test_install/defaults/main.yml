@@ -1,0 +1,5 @@
+---
+# defaults file for test_install
+
+check_packages: ''
+

@@ -1,0 +1,6 @@
+---
+# vars file for test_install
+
+install_packages:
+  - httpd
+  - firewalld

@@ -1,0 +1,8 @@
+---
+# tasks file for test_install
+
+- name: Install packages
+  yum:
+    name: "{{ install_packages }}"
+    state: latest
+  when: "check_packages == ''"

@@ -1,0 +1,8 @@
+---
+
+- name: setup my personal env
+  hosts: servera
+  roles:
+    - role: dipesh.myenv
+      myenv_user: dipesh
+
