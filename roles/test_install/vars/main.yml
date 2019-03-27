@@ -4,3 +4,4 @@
 install_packages:
   - httpd
   - firewalld
+  - mysql
