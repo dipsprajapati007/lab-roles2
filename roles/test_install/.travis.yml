@@ -8,6 +8,6 @@ python: "2.7"
 
 
 script:
-  - ansible-playbook servera playbook.yml --connection=local
+  - "ansible-playbook servera playbook.yml --connection=local"
   - "ansible-playbook servera playbook.yml | grep -q 'changed=0.*failed=0' && (echo 'Idempotence test: pass' && exit 0) || (echo 'Idempotence test: fail' && exit 1)"
-  - curl http://localhost/
+  - "curl http://localhost/"
